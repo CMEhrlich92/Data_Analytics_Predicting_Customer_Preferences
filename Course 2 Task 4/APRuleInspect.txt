@@ -1,0 +1,20 @@
+"lhs" "" "rhs" "support" "confidence" "lift" "count"
+"[1]" "{ASUS 2 Monitor,Lenovo Desktop Computer}" "=>" "{iMac}" 0.0108795119471276 0.591160220994475 2.308082879508 107
+"[2]" "{ASUS 2 Monitor,HP Laptop}" "=>" "{iMac}" 0.0110828673106253 0.582887700534759 2.27578425357656 109
+"[3]" "{ASUS Monitor,HP Laptop}" "=>" "{iMac}" 0.0117946110828673 0.582914572864322 2.27588917194149 116
+"[4]" "{HP Laptop,Microsoft Office Home and Student 2016}" "=>" "{iMac}" 0.0129130655821047 0.552173913043478 2.15586758030274 127
+"[5]" "{HP Laptop,HP Monitor}" "=>" "{iMac}" 0.010574478901881 0.502415458937198 1.96159429878815 104
+"[6]" "{Apple Magic Keyboard,Dell Desktop}" "=>" "{iMac}" 0.0101677681748856 0.584795321637427 2.28323223037082 100
+"[7]" "{Apple Magic Keyboard,Lenovo Desktop Computer}" "=>" "{iMac}" 0.0113879003558719 0.516129032258065 2.01513657493373 112
+"[8]" "{Apple Magic Keyboard,HP Laptop}" "=>" "{iMac}" 0.0147432638535841 0.51056338028169 1.99340644901565 145
+"[9]" "{Acer Aspire,ViewSonic Monitor}" "=>" "{HP Laptop}" 0.0107778342653787 0.602272727272727 3.10285608838516 106
+"[10]" "{Acer Desktop,ViewSonic Monitor}" "=>" "{iMac}" 0.0100660904931368 0.543956043956044 2.12378233120591 99
+"[11]" "{Acer Desktop,Lenovo Desktop Computer}" "=>" "{iMac}" 0.0123029994916116 0.530701754385965 2.07203324906152 121
+"[12]" "{Acer Desktop,HP Laptop}" "=>" "{iMac}" 0.0159633960345704 0.511400651465798 1.99667542960148 157
+"[13]" "{Dell Desktop,ViewSonic Monitor}" "=>" "{HP Laptop}" 0.0152516522623284 0.574712643678161 2.96086896310881 150
+"[14]" "{Dell Desktop,ViewSonic Monitor}" "=>" "{iMac}" 0.0147432638535841 0.555555555555556 2.16907061885228 145
+"[15]" "{CYBERPOWER Gamer Desktop,ViewSonic Monitor}" "=>" "{HP Laptop}" 0.0122013218098627 0.502092050209205 2.5867340564733 120
+"[16]" "{CYBERPOWER Gamer Desktop,ViewSonic Monitor}" "=>" "{iMac}" 0.0128113879003559 0.527196652719665 2.05834818558869 126
+"[17]" "{Lenovo Desktop Computer,ViewSonic Monitor}" "=>" "{iMac}" 0.0157600406710727 0.555555555555556 2.16907061885228 155
+"[18]" "{Dell Desktop,Lenovo Desktop Computer}" "=>" "{iMac}" 0.0186070157600407 0.506925207756233 1.97920183337934 183
+"[19]" "{HP Laptop,Lenovo Desktop Computer}" "=>" "{iMac}" 0.0230808337569903 0.5 1.95216355696705 227
