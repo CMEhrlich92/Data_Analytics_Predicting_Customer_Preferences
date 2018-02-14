@@ -1,0 +1,64 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 2 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     eCommerce_Existing_Products_train3-weka.filters.unsupervised.attribute.NumericToNominal-R2
+Instances:    80
+Attributes:   18
+              Product Type
+              Product #
+              Price
+              5 Star Reviews
+              4 Star Reviews
+              3 Star Reviews
+              2 Star Reviews
+              1 Star Reviews
+              Positive Service Review
+              Negative Service Review
+              Would consumer recommend product
+              Best Sellers Rank
+              Shipping Weight (lbs)
+              Product Depth
+              Product Width
+              Product Height
+              Profit margin
+              Volume
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 2 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Predictions on test set ===
+
+inst#,actual,predicted,error
+1,?,12,?
+2,?,10,?
+3,?,142,?
+4,?,142,?
+5,?,160,?
+6,?,46,?
+7,?,46,?
+8,?,46,?
+9,?,46,?
+10,?,468,?
+11,?,4588,?
+12,?,132,?
+13,?,772,?
+14,?,160,?
+15,?,772,?
+16,?,4360,?
+17,?,654,?
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Total Number of Instances                0     
+Ignored Class Unknown Instances                 17     
+

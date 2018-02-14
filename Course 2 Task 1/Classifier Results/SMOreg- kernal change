@@ -1,0 +1,129 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.RBFKernel -G 0.01 -C 250007"
+Relation:     eCommerce_Existing_Products_train3-weka.filters.unsupervised.attribute.NumericToNominal-R2
+Instances:    80
+Attributes:   18
+              Product Type
+              Product #
+              Price
+              5 Star Reviews
+              4 Star Reviews
+              3 Star Reviews
+              2 Star Reviews
+              1 Star Reviews
+              Positive Service Review
+              Negative Service Review
+              Would consumer recommend product
+              Best Sellers Rank
+              Shipping Weight (lbs)
+              Product Depth
+              Product Width
+              Product Height
+              Profit margin
+              Volume
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+Support vectors:
+-0.3545287063066184 * k[0]
+-0.18381318033835498 * k[1]
+-0.2633570523260593 * k[2]
+-0.04572887708908887 * k[3]
+-0.18895257260239307 * k[4]
++0.39839594782403365 * k[5]
+-0.8693971894494641 * k[6]
+-0.6186055067601207 * k[7]
+-0.7357140470953244 * k[8]
+-0.8234859660637889 * k[9]
+-0.22007588386242347 * k[10]
++0.49065015271748924 * k[11]
+-1.0 * k[12]
++1.0 * k[13]
++1.0 * k[14]
+-0.8619155992588513 * k[15]
+-0.7329595083116685 * k[16]
+-1.0 * k[17]
+-0.8258799890855184 * k[18]
+-0.3760541066146468 * k[19]
+-0.21360128629094227 * k[20]
++1.0 * k[21]
+-0.23078828989902433 * k[22]
+-0.4614488463996757 * k[23]
+-0.0605749298228232 * k[24]
++1.0 * k[25]
++0.37890745112024904 * k[26]
+-0.21776140659359156 * k[27]
++0.25478666527667454 * k[28]
+-0.44851181234468357 * k[29]
+-0.5727379396216766 * k[30]
+-1.0 * k[31]
+-1.0 * k[32]
++0.4155471568280473 * k[33]
++0.4189631154006268 * k[34]
++0.4176060897296886 * k[35]
++0.41773118266378917 * k[36]
++0.4186262199359026 * k[37]
++0.3860851153126339 * k[38]
++0.3886172033627511 * k[39]
++0.37811282005255664 * k[40]
++0.09112197430502689 * k[41]
+-0.22634697543863008 * k[42]
++0.029650161643740375 * k[43]
++1.0 * k[44]
++1.0 * k[45]
++0.8751080108562198 * k[46]
++1.0 * k[47]
+-0.5381454220107502 * k[48]
++1.0 * k[49]
+-0.8887019749845997 * k[50]
+-0.5518119046331559 * k[51]
++1.0 * k[52]
+-0.09473536631078691 * k[53]
++1.0 * k[54]
+-0.1967462364623076 * k[55]
++0.9879767222343567 * k[56]
+-0.7917690047482626 * k[57]
+-0.894191758972425 * k[58]
++0.1505081123437682 * k[59]
+-0.22890603219079958 * k[60]
+-0.12072155274448121 * k[61]
+-0.31101096929234995 * k[62]
+-0.14864038998295584 * k[63]
+-0.2618138048046423 * k[64]
+-0.5615531020113522 * k[65]
++0.7860968073884451 * k[66]
+-0.10780550399013425 * k[67]
++0.2752326915086888 * k[68]
+-0.14055477427845747 * k[69]
++0.4167763962788955 * k[70]
+-0.256891776970359 * k[71]
++1.0 * k[72]
+-0.12271137995363354 * k[73]
+-0.6436521695998703 * k[74]
+-0.24711619509743343 * k[75]
+-0.7172620774929435 * k[76]
+-0.019518928676516036 * k[77]
++1.0 * k[78]
++1.0 * k[79]
+ +       0.1168
+
+
+
+Number of kernel evaluations: 3240 (89.907% cached)
+
+Time taken to build model: 0.01 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.7262
+Mean absolute error                    420.5106
+Root mean squared error               1130.6525
+Relative absolute error                 52.5984 %
+Root relative squared error             73.9641 %
+Total Number of Instances               80     
+

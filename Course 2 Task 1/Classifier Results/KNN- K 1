@@ -1,0 +1,128 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     eCommerce_Existing_Products_train3-weka.filters.unsupervised.attribute.NumericToNominal-R2
+Instances:    80
+Attributes:   18
+              Product Type
+              Product #
+              Price
+              5 Star Reviews
+              4 Star Reviews
+              3 Star Reviews
+              2 Star Reviews
+              1 Star Reviews
+              Positive Service Review
+              Negative Service Review
+              Would consumer recommend product
+              Best Sellers Rank
+              Shipping Weight (lbs)
+              Product Depth
+              Product Width
+              Product Height
+              Profit margin
+              Volume
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Predictions on test data ===
+
+inst#,actual,predicted,error
+1,64,32,-32
+2,40,1464,1424
+3,592,344,-248
+4,8,12,4
+5,12,12,0
+6,1232,1232,0
+7,52,204,152
+8,88,4,-84
+1,88,196,108
+2,1232,1232,0
+3,1232,1232,0
+4,904,1464,560
+5,1232,1232,0
+6,836,204,-632
+7,44,64,20
+8,4,88,84
+1,432,1252,820
+2,368,204,-164
+3,32,32,0
+4,20,?,?
+5,300,332,32
+6,44,32,-12
+7,20,24,4
+8,12,204,192
+1,1232,1232,0
+2,80,16,-64
+3,196,88,-108
+4,824,232,-592
+5,16,72,56
+6,2052,1576,-476
+7,1252,432,-820
+8,248,72,-176
+1,2140,836,-1304
+2,0,24,24
+3,680,368,-312
+4,40,44,4
+5,7036,1684,-5352
+6,0,20,20
+7,116,308,192
+8,1536,368,-1168
+1,84,12,-72
+2,88,32,-56
+3,104,1224,1120
+4,32,?,?
+5,1464,904,-560
+6,32,44,12
+7,1232,1232,0
+8,16,232,216
+1,1232,1232,0
+2,296,232,-64
+3,1396,836,-560
+4,1472,248,-1224
+5,360,656,296
+6,1896,1536,-360
+7,72,248,176
+8,84,656,572
+1,332,300,-32
+2,396,32,-364
+3,60,32,-28
+4,656,360,-296
+5,11204,2140,-9064
+6,12,12,0
+7,1576,116,-1460
+8,232,296,64
+1,32,296,264
+2,344,592,248
+3,0,32,32
+4,24,20,-4
+5,12,592,580
+6,80,116,36
+7,204,368,164
+8,84,32,-52
+1,136,116,-20
+2,308,116,-192
+3,232,88,-144
+4,1232,1232,0
+5,8,16,8
+6,132,204,72
+7,1684,7036,5352
+8,1224,84,-1140
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.4303
+Mean absolute error                    502.45  
+Root mean squared error               1395.3889
+Relative absolute error                 62.8476 %
+Root relative squared error             91.2824 %
+Total Number of Instances               80     
+

@@ -1,0 +1,257 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     eCommerce_Existing_Products_train3-weka.filters.unsupervised.attribute.NumericToNominal-R2
+Instances:    80
+Attributes:   18
+              Product Type
+              Product #
+              Price
+              5 Star Reviews
+              4 Star Reviews
+              3 Star Reviews
+              2 Star Reviews
+              1 Star Reviews
+              Positive Service Review
+              Negative Service Review
+              Would consumer recommend product
+              Best Sellers Rank
+              Shipping Weight (lbs)
+              Product Depth
+              Product Width
+              Product Height
+              Profit margin
+              Volume
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0057 * (normalized) Product Type=PC
+ -       0.01   * (normalized) Product Type=Laptop
+ -       0.0004 * (normalized) Product Type=Accessories
+ -       0.028  * (normalized) Product Type=Software
+ +       0.0047 * (normalized) Product Type=Display
+ +       0.0052 * (normalized) Product Type=Printer
+ -       0.0107 * (normalized) Product Type=Printer Supplies
+ -       0.022  * (normalized) Product Type=Extended Warranty
+ +       0.003  * (normalized) Product Type=Netbook
+ -       0.0154 * (normalized) Product Type=Tablet
+ -       0.0012 * (normalized) Product Type=Smartphone
+ +       0.0804 * (normalized) Product Type=Game Console
+ -       0.011  * (normalized) Product #=101
+ +       0.0131 * (normalized) Product #=102
+ -       0.013  * (normalized) Product #=103
+ +       0      * (normalized) Product #=104
+ -       0.0089 * (normalized) Product #=105
+ +       0.002  * (normalized) Product #=106
+ -       0.0042 * (normalized) Product #=107
+ -       0.0174 * (normalized) Product #=108
+ -       0.0056 * (normalized) Product #=109
+ -       0.0036 * (normalized) Product #=110
+ +       0.002  * (normalized) Product #=111
+ +       0.0061 * (normalized) Product #=112
+ -       0.0146 * (normalized) Product #=113
+ +       0.0172 * (normalized) Product #=114
+ +       0      * (normalized) Product #=115
+ -       0.0101 * (normalized) Product #=116
+ -       0.0077 * (normalized) Product #=117
+ -       0.1062 * (normalized) Product #=118
+ -       0.0137 * (normalized) Product #=119
+ +       0.0167 * (normalized) Product #=120
+ +       0.0182 * (normalized) Product #=121
+ -       0.0207 * (normalized) Product #=122
+ -       0.0609 * (normalized) Product #=123
+ +       0.0145 * (normalized) Product #=124
+ +       0.0043 * (normalized) Product #=125
+ +       0.0105 * (normalized) Product #=126
+ +       0.008  * (normalized) Product #=127
+ +       0.0063 * (normalized) Product #=128
+ +       0.0006 * (normalized) Product #=129
+ -       0.0055 * (normalized) Product #=130
+ -       0.0058 * (normalized) Product #=131
+ +       0.018  * (normalized) Product #=132
+ +       0.0114 * (normalized) Product #=133
+ -       0.0054 * (normalized) Product #=134
+ -       0.0064 * (normalized) Product #=135
+ -       0.0063 * (normalized) Product #=136
+ -       0.0065 * (normalized) Product #=137
+ -       0.0065 * (normalized) Product #=138
+ -       0.0066 * (normalized) Product #=139
+ -       0.0067 * (normalized) Product #=140
+ -       0.007  * (normalized) Product #=141
+ +       0.0052 * (normalized) Product #=142
+ -       0.0011 * (normalized) Product #=143
+ -       0.0104 * (normalized) Product #=144
+ +       0.0275 * (normalized) Product #=145
+ +       0.0236 * (normalized) Product #=146
+ -       0.0183 * (normalized) Product #=147
+ -       0.1044 * (normalized) Product #=148
+ -       0.0067 * (normalized) Product #=149
+ +       0.2453 * (normalized) Product #=150
+ -       0.0194 * (normalized) Product #=151
+ -       0.0187 * (normalized) Product #=152
+ +       0.0246 * (normalized) Product #=153
+ -       0.0216 * (normalized) Product #=154
+ +       0.0338 * (normalized) Product #=155
+ -       0.0098 * (normalized) Product #=156
+ +       0.0114 * (normalized) Product #=157
+ -       0.0039 * (normalized) Product #=158
+ -       0.0035 * (normalized) Product #=159
+ -       0.0042 * (normalized) Product #=160
+ -       0.0144 * (normalized) Product #=161
+ +       0.012  * (normalized) Product #=162
+ +       0      * (normalized) Product #=163
+ +       0.0093 * (normalized) Product #=164
+ -       0.0016 * (normalized) Product #=165
+ +       0.0033 * (normalized) Product #=166
+ +       0      * (normalized) Product #=167
+ -       0.0079 * (normalized) Product #=168
+ -       0.0056 * (normalized) Product #=169
+ +       0.0019 * (normalized) Product #=177
+ +       0.0012 * (normalized) Product #=182
+ -       0.0085 * (normalized) Product #=185
+ -       0.0126 * (normalized) Product #=188
+ +       0.0057 * (normalized) Product #=189
+ -       0.0033 * (normalized) Product #=190
+ -       0.0157 * (normalized) Product #=191
+ -       0.0181 * (normalized) Product #=192
+ +       0.0358 * (normalized) Product #=197
+ +       0.117  * (normalized) Product #=198
+ +       0      * (normalized) Product #=171
+ +       0      * (normalized) Product #=172
+ +       0      * (normalized) Product #=173
+ +       0      * (normalized) Product #=175
+ +       0      * (normalized) Product #=176
+ +       0      * (normalized) Product #=178
+ +       0      * (normalized) Product #=180
+ +       0      * (normalized) Product #=181
+ +       0      * (normalized) Product #=183
+ +       0      * (normalized) Product #=186
+ +       0      * (normalized) Product #=187
+ +       0      * (normalized) Product #=193
+ +       0      * (normalized) Product #=194
+ +       0      * (normalized) Product #=195
+ +       0      * (normalized) Product #=196
+ +       0      * (normalized) Product #=199
+ -       0.0365 * (normalized) Product #=200
+ +       0      * (normalized) Product #=201
+ +       0.0068 * (normalized) Price
+ +       0.2844 * (normalized) 5 Star Reviews
+ +       0.1905 * (normalized) 4 Star Reviews
+ +       0.1373 * (normalized) 3 Star Reviews
+ +       0.0205 * (normalized) 2 Star Reviews
+ -       0.032  * (normalized) 1 Star Reviews
+ +       0.1366 * (normalized) Positive Service Review
+ -       0.0338 * (normalized) Negative Service Review
+ +       0.0315 * (normalized) Would consumer recommend product
+ +       0.0148 * (normalized) Best Sellers Rank
+ +       0.0114 * (normalized) Shipping Weight (lbs)
+ +       0.0315 * (normalized) Product Depth
+ -       0.0442 * (normalized) Product Width
+ -       0.0127 * (normalized) Product Height
+ -       0.0025 * (normalized) Profit margin
+ -       0.0058
+
+
+
+Number of kernel evaluations: 3240 (92.963% cached)
+
+Time taken to build model: 0.01 seconds
+
+=== Predictions on test data ===
+
+inst#,actual,predicted,error
+1,64,140.816,76.816
+2,40,267.675,227.675
+3,592,717.341,125.341
+4,8,-445.072,-453.072
+5,12,223.184,211.184
+6,1232,1319.943,87.943
+7,52,184.212,132.212
+8,88,30.864,-57.136
+1,88,129.827,41.827
+2,1232,1347.516,115.516
+3,1232,1348.98,116.98
+4,904,479.673,-424.327
+5,1232,1356.506,124.506
+6,836,1038.869,202.869
+7,44,81.041,37.041
+8,4,-32.841,-36.841
+1,432,726.009,294.009
+2,368,529.81,161.81
+3,32,-134.476,-166.476
+4,20,-151.339,-171.339
+5,300,179.488,-120.512
+6,44,183.577,139.577
+7,20,168.932,148.932
+8,12,284.59,272.59
+1,1232,1287.265,55.265
+2,80,220.08,140.08
+3,196,129.03,-66.97
+4,824,1143.222,319.222
+5,16,160.606,144.606
+6,2052,10958.032,8906.032
+7,1252,958.955,-293.045
+8,248,559.832,311.832
+1,2140,3671.102,1531.102
+2,0,-116.609,-116.609
+3,680,2346.534,1666.534
+4,40,281.19,241.19
+5,7036,4638.038,-2397.962
+6,0,-459.312,-459.312
+7,116,-97.467,-213.467
+8,1536,1201.411,-334.589
+1,84,-49.459,-133.459
+2,88,-73.123,-161.123
+3,104,91.41,-12.59
+4,32,8.533,-23.467
+5,1464,1105.083,-358.917
+6,32,178.563,146.563
+7,1232,1315.946,83.946
+8,16,-170.51,-186.51
+1,1232,1321.87,89.87
+2,296,349.859,53.859
+3,1396,1360.276,-35.724
+4,1472,842.773,-629.227
+5,360,516.793,156.793
+6,1896,1753.46,-142.54
+7,72,182.167,110.167
+8,84,191.454,107.454
+1,332,202.686,-129.314
+2,396,455.8,59.8
+3,60,211.541,151.541
+4,656,463.407,-192.593
+5,11204,6520.508,-4683.492
+6,12,188.042,176.042
+7,1576,1654.231,78.231
+8,232,393.615,161.615
+1,32,160.811,128.811
+2,344,539.667,195.667
+3,0,-35.159,-35.159
+4,24,130.925,106.925
+5,12,-15.258,-27.258
+6,80,-162.009,-242.009
+7,204,432.954,228.954
+8,84,52.023,-31.977
+1,136,-138.169,-274.169
+2,308,178.734,-129.266
+3,232,416.099,184.099
+4,1232,1322.656,90.656
+5,8,-127.89,-135.89
+6,132,348.617,216.617
+7,1684,2352.093,668.093
+8,1224,1070.99,-153.01
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.6946
+Mean absolute error                    400.7218
+Root mean squared error               1201.6878
+Relative absolute error                 50.1232 %
+Root relative squared error             78.611  %
+Total Number of Instances               80     
+
